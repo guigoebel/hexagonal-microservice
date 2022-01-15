@@ -10,8 +10,8 @@ import (
 )
 
 var (
-	ErrRedirect        = errors.New("Redirect Not Found")
-	ErrRedirectInvalid = errors.New("Redirect Invalid")
+	ErrRedirectNotFound = errors.New("Redirect Not Found")
+	ErrRedirectInvalid  = errors.New("Redirect Invalid")
 )
 
 type redirectService struct {
